@@ -7,6 +7,9 @@ all: bazel-venv
 test: bazel-venv
 	. $(VENV)/bin/activate; bazel test //...
 
+clean: bazel-venv
+	. $(VENV)/bin/activate; bazel clean
+
 gofmt:
 	gofmt -w -s pkg/ cmd/
 
