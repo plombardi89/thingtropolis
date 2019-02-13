@@ -16,7 +16,7 @@ build
 /output/
 
 # === Bazel IntelliJ ===================
-.ijwb
+.ijwb/*
 !.ijwb/.bazelproject
 
 # === Go ===============================
