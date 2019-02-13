@@ -74,3 +74,57 @@ go_repository(
     importpath = "github.com/spf13/pflag",
     tag = "v1.0.3",
 )
+
+go_repository(
+    name = "com_github_go_chi_chi",
+    importpath = "github.com/go-chi/chi",
+    tag = "v4.0.1",
+)
+
+go_repository(
+    name = "com_github_davecgh_go_spew",
+    importpath = "github.com/davecgh/go-spew",
+    tag = "v1.1.1",
+)
+
+go_repository(
+    name = "com_github_konsorten_go_windows_terminal_sequences",
+    importpath = "github.com/konsorten/go-windows-terminal-sequences",
+    tag = "v1.0.1",
+)
+
+go_repository(
+    name = "com_github_pmezard_go_difflib",
+    importpath = "github.com/pmezard/go-difflib",
+    tag = "v1.0.0",
+)
+
+go_repository(
+    name = "com_github_sirupsen_logrus",
+    importpath = "github.com/sirupsen/logrus",
+    tag = "v1.3.0",
+)
+
+go_repository(
+    name = "com_github_stretchr_objx",
+    importpath = "github.com/stretchr/objx",
+    tag = "v0.1.1",
+)
+
+go_repository(
+    name = "com_github_stretchr_testify",
+    importpath = "github.com/stretchr/testify",
+    tag = "v1.3.0",
+)
+
+go_repository(
+    name = "org_golang_x_crypto",
+    commit = "74369b46fc67",
+    importpath = "golang.org/x/crypto",
+)
+
+go_repository(
+    name = "org_golang_x_sys",
+    commit = "3b5209105503",
+    importpath = "golang.org/x/sys",
+)
